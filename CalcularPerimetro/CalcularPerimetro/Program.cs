@@ -27,6 +27,7 @@ internal class Program
                 Rectangulo rectangulo = new Rectangulo();
                 Console.WriteLine($"Perimetro del Rectangulo {rectangulo.CalculatePerimeter()}");
                 Console.WriteLine($"Area del Rectangulo {rectangulo.CalculateArea()}");
+
                 break;
         }                    
     }

@@ -16,7 +16,7 @@ namespace CalcularPerimetro
             Console.WriteLine("Ingrese el valor del Lado1:");
             Side1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Ingrese el valor del Lado2:");
-            Side1 = Convert.ToDouble(Console.ReadLine());
+            Side2 = Convert.ToDouble(Console.ReadLine());
         }
         public double CalculatePerimeter()
         {

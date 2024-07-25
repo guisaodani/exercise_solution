@@ -11,6 +11,7 @@ internal class Program
         Console.WriteLine("*********************************************");
         Console.WriteLine("1. Para un Cuadrado--------------------------");
         Console.WriteLine("2. Para un Rectangulo------------------------");
+        Console.WriteLine("3. Para un Triangulo-------------------------");
         Console.WriteLine("*********************************************");
 
         double Option = Convert.ToDouble(Console.ReadLine());
@@ -29,6 +30,13 @@ internal class Program
                 Console.WriteLine($"Area del Rectangulo {rectangulo.CalculateArea()}");
 
                 break;
+            case 3:
+                Triangulo triangulo = new Triangulo();
+                Console.WriteLine($"El Perimetro del rectangulo:{triangulo.CalcularPerimetro()}");
+                Console.WriteLine($"El Area del triangulo:{triangulo.CalcularArea()}");
+
+                break;
+
         }                    
     }
 }
